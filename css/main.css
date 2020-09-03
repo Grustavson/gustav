@@ -10,13 +10,21 @@ body {
 }
 
 .heading {
-	font-size: 60px;
+	font-size:300%;
 	text-align: center;
+	color: #e641e6;
 }
 
 .banner-image {
 	width: 100%;
 	height: auto;
 }
+
+div#col    {
+	column-count: 3;
+	column-width: 33%
+}
+
+
 
 
