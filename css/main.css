@@ -1,7 +1,7 @@
 
 body {
-	font-family: 'Roboto', sans-serif; 
-	/* here i am setting the font for the entire page */
+	font-family: 'gotham', sans-sheriff   ;
+    background:#208279
 }
 
 .container {
@@ -10,7 +10,7 @@ body {
 }
 
 .heading {
-	font-size: 60px;
+	font-size: 400%;
 	text-align: center;
 }
 
@@ -19,4 +19,28 @@ body {
 	height: auto;
 }
 
+.banner-image {
+  border-radius: 50px;
+  max-width: 32%;
+  max-height: auto
+}
+
+.inline {
+	display:inline
+}
+
+.cols {
+	display:flex;
+
+  }
+
+.cols #col{
+  flex: 3;
+  border-bottom-left-radius:60px;
+ 
+  padding:60px;
+  background:#6c3ebd;
+  color:#fff;
+
+}
 
